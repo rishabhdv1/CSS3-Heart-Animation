@@ -1,0 +1,79 @@
+body{
+    background: #000;
+}
+.myheart{
+    width: 200px;
+    display: block;
+    margin: 100px auto ;
+    line-height: 400px;
+    animation: H1 1s linear  infinite ;
+}
+@keyframes H1{
+    0%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(.9);
+    }
+    90%{
+        transform: scale(1);
+    }
+    95%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.myheart2{
+    width: 200px;
+    height: 200px;
+    
+    margin: auto;
+    background-image: url(../img/heart.png);
+    background-size: contain;
+    animation: H2 1s  infinite alternate;
+}
+@keyframes H2 {
+    0% {
+        transform: scale(1)
+    }
+
+    5% {
+        transform: scale(1.2)
+    }
+
+    10% {
+        transform: scale(1.1)
+    }
+
+    15% {
+        transform: scale(1.25)
+    }
+
+    50% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+/*@keyframes H2{
+    0%{
+        transform: scale(1,1);
+    }
+    25%{
+        transform: scale(1.5,1.5);
+    }
+    50%{
+        transform: scale(1.2,1.2);
+    }
+    75%{
+        transform: scale(1.5,1.5);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
